@@ -1,9 +1,5 @@
 # Mini-RAG com a documentação do Git
 
-## Integrantes
-
-[Nomes dos integrantes do ChicoSense]
-
 ## Sobre o projeto
 
 Este projeto em Node.js responde a perguntas em português sobre `git init`, `git add` e `git commit`. Ele busca trechos da documentação oficial do Git e usa o Gemini para responder com base no conteúdo recuperado. [git init](https://git-scm.com/docs/git-init) · [git add](https://git-scm.com/docs/git-add) · [git commit](https://git-scm.com/docs/git-commit)
