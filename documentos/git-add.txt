@@ -1,0 +1,23 @@
+
+NOME
+
+git-add - Adicione o conteúdo do arquivo ao índice
+
+DESCRIÇÃO
+
+Add contents of new or changed files to the index. The "index" (also known as the "staging area") is what you use to prepare the contents of the next commit.
+
+When you run git commit without any other arguments, it will only commit staged changes. For example, if you've edited file.c and want to commit your changes to that file, you can run:
+
+git add file.c
+git commit
+
+You can also add only part of your changes to a file with git add -p.
+
+Este comando pode ser executado várias vezes antes de um commit. Ele adiciona apenas o conteúdo do(s) arquivo(s) informados(s) no momento em que o comando add for executado; caso queira que as alterações subsequentes sejam incluídas no próximo commit, execute o comando git add novamente para adicionar o novo conteúdo ao índice.
+
+O comando git status pode ser utilizado para obter um resumo de quais os arquivos que possuem as alterações que foram testadas para o próximo commit.
+
+The git add command will not add ignored files by default. You can use the --force option to add ignored files. If you specify the exact filename of an ignored file, git add will fail with a list of ignored files. Otherwise it will silently ignore the file.
+
+Consulte git-commit para ver as formas alternativas de adicionar um conteúdo a um commit.
